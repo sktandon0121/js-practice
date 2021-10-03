@@ -12,6 +12,8 @@ function getAllPromiseData() {
         .then(([users, products]) => {
             console.log('products ', products)
             console.log('users ', users)
+        }).catch(e => {
+            console.log("Error : ", e)
         })
 
 }
