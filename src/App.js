@@ -1,5 +1,6 @@
 
 import './App.css';
+import MyDropdown from './companyUI/Dropdown';
 import getPromise from './promises/promise';
 import getAllPromiseData from './promises/promise_all';
 
@@ -11,7 +12,7 @@ function App() {
   getPromise()
   return (
     <div className="App">
-
+      <MyDropdown />
     </div>
   );
 }

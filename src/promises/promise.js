@@ -1,7 +1,7 @@
 
 export default function getPromise() {
     let data = new Promise((resolve, reject) => {
-        fetch("https://jsonplaceholder.typicode.com/userse")
+        fetch("https://jsonplaceholder.typicode.com/users")
             .then(res => resolve(res.json()))
             .catch(e => {
                 reject(e)
