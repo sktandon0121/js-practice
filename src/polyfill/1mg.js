@@ -58,6 +58,13 @@ let test = { a: 0, b: 8, c: [2, 3] }
 console.log(getFlat(res, test, key))
 
 
+let a = new Promise((reject,resolve)=>{
+    if (data){
+        reslolve(data)
+    }esle{
+        reject(false)
+    }
+}))
 
 
 
@@ -74,12 +81,6 @@ console.log(getFlat(res, test, key))
 
 
 
-
-
-// Question - Given an array find pairs such that they sums to a given number.
-
-// Array [6, 2, 4, 8, 5]
-// Num 10
 
 
 
